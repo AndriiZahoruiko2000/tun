@@ -67,6 +67,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .hero .container {
+    background-image: url(/img/background/tablet/tablet.decore-background.png);
+  }
+
   .hero_title {
     font-size: 136px;
     line-height: 1.14;
@@ -96,6 +100,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .hero .container {
+    background-image: url(/img/background/desktop/desktop.hro-background.png);
+  }
+
   .hero_title {
     letter-spacing: -0.03em;
     margin-bottom: 80px;
