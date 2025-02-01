@@ -1,0 +1,26 @@
+.socials {
+  background-color: var(--light-grey);
+  padding: 32px 0;
+}
+
+.socials_list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+}
+
+.social_item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+@media only screen and (min-width: 768px) {
+  .socials_list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+}
