@@ -1,0 +1,25 @@
+.benefits_title {
+  font-size: 108px;
+  line-height: 1.14;
+  letter-spacing: 1.8px;
+  width: 692px;
+  font-family: var(--second-family);
+  text-transform: uppercase;
+}
+
+.benefits_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: flex-end;
+  height: 400px;
+}
+
+.benefits_item {
+  width: 384px;
+}
+
+.benefits_item:first-child {
+  align-self: flex-start;
+  order: -1;
+}

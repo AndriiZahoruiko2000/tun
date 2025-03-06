@@ -1,0 +1,84 @@
+.animation {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.animation_list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.animation_item {
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+  padding: 32px 0;
+}
+
+.animation_item.first {
+  background-color: rgba(188, 223, 209, 1);
+}
+
+.animation_item.second {
+  background-color: rgba(228, 229, 230, 1);
+  transform: rotate(2deg);
+}
+
+.animation_text {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: rgba(41, 41, 41, 1);
+  letter-spacing: 0.5px;
+  font-family: var(--font-family);
+  animation: scroll 10s linear infinite;
+}
+
+.animation_text span {
+  margin-right: 56px;
+  position: relative;
+}
+
+.animation_text span::before {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background-color: rgba(0, 176, 104, 1);
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+}
+
+.animation_item.second .animation_text {
+  animation: scroll_reverse 10s linear infinite;
+  color: var(--accet-green-dt);
+}
+
+.animation_item.second .animation_text span:before {
+  background-color: var(--black-dt);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll_reverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
