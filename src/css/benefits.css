@@ -9,17 +9,19 @@
 
 .benefits_list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 32px;
   align-items: flex-end;
   height: 400px;
+  justify-content: flex-start;
 }
 
 .benefits_item {
   width: 384px;
+  flex: 1;
 }
 
-.benefits_item:first-child {
+.benefits_item:last-child {
   align-self: flex-start;
   order: -1;
 }
