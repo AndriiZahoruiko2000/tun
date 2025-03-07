@@ -1,0 +1,42 @@
+.frequently {
+  padding: 82px 0;
+}
+
+.frequently .container {
+  position: relative;
+}
+
+.frequently .container::before {
+  position: absolute;
+  content: '';
+  width: 526px;
+  height: 408px;
+  background-image: url(/img/frequently/desktop.frequently-decor.png.png);
+  bottom: 0;
+  left: 32px;
+}
+
+.frequently_title {
+  font-size: 108px;
+  line-height: 1.14;
+  letter-spacing: 1.8px;
+
+  font-family: var(--second-family);
+  text-transform: uppercase;
+}
+
+.frequently_list {
+  margin-left: 624px;
+}
+
+.frequently_item {
+  width: 592px;
+}
+
+.frequently_btn {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  padding: 28px;
+  text-align: left;
+}

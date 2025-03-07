@@ -1,6 +1,8 @@
 .animation {
   max-width: 1280px;
   margin: 0 auto;
+
+  padding: 82px 0;
 }
 
 .animation_list {
