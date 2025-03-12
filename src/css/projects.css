@@ -1,0 +1,17 @@
+.projects {
+  padding: 40px 0;
+}
+
+.projects_title {
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 1.8px;
+  font-family: var(--second-family);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.projects_title-accent {
+  color: var(--accent-green);
+}
