@@ -7,6 +7,7 @@
   line-height: 1.23;
   letter-spacing: 1.8px;
   font-family: var(--second-family);
+  font: 400;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -14,4 +15,43 @@
 
 .projects_title-accent {
   color: var(--accent-green);
+}
+
+.project_img {
+  margin-bottom: 12px;
+}
+
+.project_text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: var(--font-family);
+  font: 300;
+  color: #292929;
+  margin-bottom: 16px;
+}
+
+.project_subtitle {
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  font-family: var(--font-family);
+  font: 500;
+  color: #292929;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.project_btn {
+  display: block;
+  margin-left: auto;
+  background-color: var(--light-grey);
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin-right: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: var(--font-family);
+  position: relative;
 }
