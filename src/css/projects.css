@@ -47,11 +47,31 @@
   margin-left: auto;
   background-color: var(--light-grey);
   border-radius: 8px;
-  padding: 12px 24px;
-  margin-right: 0 auto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
   font-family: var(--font-family);
+  text-transform: uppercase;
+  padding: 12px 60px 12px 24px;
   position: relative;
+  margin-bottom: 40px;
+}
+
+.project_svg {
+  position: absolute;
+  right: 24px;
+  top: 17px;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects_title {
+    font-size: 108px;
+    line-height: 1.14;
+    letter-spacing: 1.8px;
+    margin-bottom: 60px;
+  }
+
+  .project_img {
+    width: 704px;
+  }
 }
