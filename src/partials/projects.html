@@ -3,9 +3,29 @@
     <h2 class="projects_title">
       my <span class="projects_title-accent">projects</span>
     </h2>
-    <ul>
-      <li>
+    <ul class="project_list">
+      <li class="project_item">
         <picture>
+          <source
+            srcset="
+              ./img/projects/desktop/first-photo/desktop.project-first.webp    1x,
+              ./img/projects/desktop/first-photo/desktop.project-first@2x.webp 2x,
+              ./img/projects/desktop/first-photo/desktop.project-first@3x.webp 3x
+            "
+            media="(min-width: 1072px)"
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/projects/desktop/first-photo/desktop.project-first.png    1x,
+              ./img/projects/desktop/first-photo/desktop.project-first@2x.png 2x,
+              ./img/projects/desktop/first-photo/desktop.project-first@3x.png 3x
+            "
+            media="(min-width: 1072px)"
+            type="image/png"
+          />
+
           <source
             srcset="
               ./img/projects/tablet/first-photo/tablet.first-photo.webp    1x,
@@ -49,29 +69,60 @@
           <img
             src="./img/projects/mobile/first-photo/mobile.project-first-photo.png"
             alt=""
-            width="320px"
-            height="184px"
             class="project_img"
           />
         </picture>
         <p class="project_text">React, JavaScript, Node JS, Git</p>
-        <h3 class="project_subtitle">Wallet webservice</h3>
-        <button class="project_btn" type="button">
-          Visit
-          <svg class="project_svg" width="15" height="15">
-            <use href="./img/sprite1.svg#icon-Vector-24"></use>
-          </svg>
-        </button>
+        <div class="project_wrapper">
+          <h3 class="project_subtitle">Wallet webservice</h3>
+          <button class="project_btn" type="button">
+            Visit
+            <svg class="project_svg" width="15" height="15">
+              <use href="./img/sprite1.svg#icon-Vector-24"></use>
+            </svg>
+          </button>
+        </div>
       </li>
-      <li>
+      <li class="project_item">
         <picture>
+          <source
+            srcset="
+              ./img/projects/desktop/second-photo/desktop.project-second.webp    1x,
+              ./img/projects/desktop/second-photo/desktop.project-second@2x.webp 2x,
+              ./img/projects/desktop/second-photo/desktop.project-second@3x.webp 3x
+            "
+            media="(min-width: 1072px)"
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/projects/desktop/second-photo/desktop.project-second.png    1x,
+              ./img/projects/desktop/second-photo/desktop.project-second@2x.png 2x,
+              ./img/projects/desktop/second-photo/desktop.project-second@3x.png 3x
+            "
+            media="(min-width: 1072px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./img/projects/tablet/second-photo/tablet.second-photo.webp    1x,
+              ./img/projects/tablet/second-photo/tablet.second-photo@2x.webp 2x,
+              ./img/projects/tablet/second-photo/tablet.second-photo@3x.webp 3x
+            "
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+
           <source
             srcset="
               ./img/projects/tablet/second-photo/tablet.second-photo.png    1x,
               ./img/projects/tablet/second-photo/tablet.second-photo@2x.png 2x,
               ./img/projects/tablet/second-photo/tablet.second-photo@3x.png 3x
             "
-            media="(min-width:)"
+            media="(min-width: 768px)"
+            type="image/png"
           />
 
           <source
@@ -97,22 +148,62 @@
           <img
             src="./img/projects/mobile/second-photo/mobile.second-photo.png"
             alt=""
-            width="320px"
-            height="184px"
             class="project_img"
           />
         </picture>
         <p class="project_text">React, JavaScript, Node JS, Git</p>
-        <h3 class="project_subtitle">Green harvest webservice</h3>
-        <button class="project_btn" type="button">
-          Visit
-          <svg class="project_svg" width="15" height="15">
-            <use href="./img/sprite1.svg#icon-Vector-24"></use>
-          </svg>
-        </button>
+        <div class="project_wrapper">
+          <h3 class="project_subtitle">Green harvest webservice</h3>
+          <button class="project_btn" type="button">
+            Visit
+            <svg class="project_svg" width="15" height="15">
+              <use href="./img/sprite1.svg#icon-Vector-24"></use>
+            </svg>
+          </button>
+        </div>
       </li>
-      <li>
+      <li class="project_item">
         <picture>
+          <source
+            srcset="
+              ./img/projects/desktop/third-photo/desktop.project-third.webp    1x,
+              ./img/projects/desktop/third-photo/desktop.project-third@2x.webp 2x,
+              ./img/projects/desktop/third-photo/desktop.project-third@3x.webp 3x
+            "
+            media="(min-width: 1072px)"
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/projects/desktop/third-photo/desktop.project-third.png    1x,
+              ./img/projects/desktop/third-photo/desktop.project-third@2x.png 2x,
+              ./img/projects/desktop/third-photo/desktop.project-third@3x.png 3x
+            "
+            media="(min-width: 1072px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./img/projects/tablet/third-photo/tablet.project-third.webp    1x,
+              ./img/projects/tablet/third-photo/tablet.project-third@2x.webp 2x,
+              ./img/projects/tablet/third-photo/tablet.project-third@3x.webp 3x
+            "
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/projects/tablet/third-photo/tablet.project-third.png    1x,
+              ./img/projects/tablet/third-photo/tablet.project-third@2x.png 2x,
+              ./img/projects/tablet/third-photo/tablet.project-third@3x.png 3x
+            "
+            media="(min-width: 768px)"
+            type="image/png"
+          />
+
           <source
             srcset="
               ./img/projects/mobile/third-photo/mobile.third-photo.webp    1x,
@@ -136,20 +227,21 @@
           <img
             src="./img/projects/mobile/third-photo/mobile.third-photo.png"
             alt=""
-            width="320px"
-            height="184px"
             class="project_img"
           />
         </picture>
         <p class="project_text">React, JavaScript, Node JS, Git</p>
-        <h3 class="project_subtitle">English Exellence website</h3>
-        <button class="project_btn" type="button">
-          Visit
-          <svg class="project_svg" width="15" height="15">
-            <use href="./img/sprite1.svg#icon-Vector-24"></use>
-          </svg>
-        </button>
+        <div class="project_wrapper">
+          <h3 class="project_subtitle">English Exellence website</h3>
+          <button class="project_btn" type="button">
+            Visit
+            <svg class="project_svg" width="15" height="15">
+              <use href="./img/sprite1.svg#icon-Vector-24"></use>
+            </svg>
+          </button>
+        </div>
       </li>
     </ul>
+    <button class="load_btn" type="button">LOAD MORE</button>
   </div>
 </section>
