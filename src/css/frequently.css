@@ -1,4 +1,4 @@
-.frequently {
+/* .frequently {
   padding: 82px 0;
 }
 
@@ -39,4 +39,50 @@
   letter-spacing: 0.5px;
   padding: 28px;
   text-align: left;
+}
+ */
+
+.frequently {
+  padding: 40px 0;
+}
+
+.frequently_title {
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 1.8;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var();
+  font-family: var(--second-family);
+  margin-bottom: 40px;
+}
+
+.frequently_accent {
+  color: var(--accent-green);
+}
+
+.frequently_list {
+  display: flex;
+  gap: 56px;
+  flex-direction: column;
+}
+
+.frequently_item {
+  position: relative;
+}
+
+.frequently_item::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #292929;
+}
+
+.frequently_item::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #292929;
 }
