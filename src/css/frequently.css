@@ -49,10 +49,10 @@
 .frequently_title {
   font-size: 52px;
   line-height: 1.23;
-  letter-spacing: 1.8;
+  letter-spacing: 1.8px;
   text-transform: uppercase;
   font-weight: 400;
-  color: var();
+
   font-family: var(--second-family);
   margin-bottom: 40px;
 }
@@ -61,28 +61,80 @@
   color: var(--accent-green);
 }
 
-.frequently_list {
-  display: flex;
-  gap: 56px;
-  flex-direction: column;
-}
-
 .frequently_item {
-  position: relative;
+  border-bottom: 1px solid var(--light-grey);
 }
 
-.frequently_item::before {
-  position: absolute;
-  content: '';
-  height: 2px;
+.frequently_btn {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 16px;
   width: 100%;
-  background-color: #292929;
+  padding: 28px 24px;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  text-transform: uppercase;
 }
 
-.frequently_item::after {
-  position: absolute;
-  content: '';
-  height: 2px;
-  width: 100%;
-  background-color: #292929;
+.frendly_btn-text {
+  max-width: 224px;
+}
+
+.frequently_svg {
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: BLACK;
+}
+
+@media only screen and (min-width: 768px) {
+  .frequently_title {
+    font-size: 108px;
+    line-height: 1.14;
+    letter-spacing: 1.8px;
+  }
+
+  .frequently_btn {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .frendly_btn-text {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .frequently_list {
+    width: 592px;
+    margin-left: auto;
+    margin-top: -124px;
+  }
+
+  .frendly_btn-text {
+    max-width: 488px;
+  }
+
+  .frequently_title {
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .frequently .container {
+    position: relative;
+  }
+
+  .frequently .container::after {
+    position: absolute;
+    content: '';
+    width: 526px;
+    height: 408px;
+    left: 32px;
+    bottom: 0;
+    background-image: url(/img/frequently/desktop.frequently-decor.png);
+  }
 }
