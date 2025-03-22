@@ -1,3 +1,51 @@
 .work {
   padding: 40px 0;
 }
+
+.work_title {
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 1.8px;
+  font-weight: 700;
+  font-family: var(--second-family);
+  color: var(--black);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.work_title-accent {
+  color: var(--accent-green);
+}
+
+.work_text {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.work_list {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.work_svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.work_link {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: var(--black);
+  font-family: var(--font-family);
+  font-weight: 300;
+}
