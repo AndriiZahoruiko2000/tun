@@ -66,6 +66,7 @@
   border: none;
   background-color: var(--light-grey);
   margin-bottom: 32px;
+  resize: none;
 }
 
 .work_input-email::placeholder {
