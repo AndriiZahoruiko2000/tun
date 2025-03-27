@@ -55,7 +55,8 @@
   display: flex;
   gap: 16px;
   margin-top: 24px;
-  margin-left: 224px;
+
+  justify-content: flex-end;
 }
 
 .reviews_btn {
